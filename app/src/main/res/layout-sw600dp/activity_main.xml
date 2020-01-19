@@ -15,7 +15,10 @@
         android:text="@string/button_label_toast"
         android:textColor="@android:color/white"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toStartOf="@+id/button_submit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_submit"
@@ -28,6 +31,8 @@
         android:textColor="@android:color/white"
         android:textSize="60sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/button_toast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button_toast" />
 
     <TextView
