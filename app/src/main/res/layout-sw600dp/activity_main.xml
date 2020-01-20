@@ -15,13 +15,13 @@
         android:text="@string/button_label_toast"
         android:textColor="@android:color/white"
         android:textSize="60sp"
-        app:layout_constraintEnd_toStartOf="@+id/button_submit"
+        app:layout_constraintEnd_toStartOf="@+id/button_count"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_submit"
+        android:id="@+id/button_count"
         android:layout_width="399dp"
         android:layout_height="100dp"
         android:layout_marginStart="24dp"
